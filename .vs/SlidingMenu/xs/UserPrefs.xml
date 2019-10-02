@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{77B49FAF-202A-4835-9E69-52E6A2BD62A5}|Default">
+  <MonoDevelop.Ide.ItemProperties.SlidingMenu.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SlidingMenu/Views/MenuBar.xaml">
+    <Files>
+      <File FileName="SlidingMenu/MenuBar.xaml.cs" Line="24" Column="43" />
+      <File FileName="SlidingMenu/Views/MenuBar.xaml" Line="6" Column="52" />
+      <File FileName="SlidingMenu/Views/ContactsPage.xaml.cs" Line="11" Column="10" />
+      <File FileName="SlidingMenu/Views/ContactsPage.xaml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SlidingMenu" expanded="True">
+            <Node name="SlidingMenu" expanded="True">
+              <Node name="Views" expanded="True">
+                <Node name="ContactsPage.xaml" expanded="True" />
+                <Node name="MenuBar.xaml" expanded="True" selected="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                  x:Class="SlidingMenu.Views.MenuBar">
+    <MasterDetailPage.Master>
+        <ContentPage Title="Action" BackgroundColor="#2196F3" Padding="0,20,0,0">
+            <StackLayout>
+                <Label Text="Menu Actions" FontAttributes="Bold" FontSize="Medium" TextColor="White" Margin="3" />
+                <ListView BackgroundColor="White" x:Name="ListMenu" ItemSelected="ListMenu_ItemSelected">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" Padding="5,0,0,0">
+                                    <Image Source="{Binding icon}" HeightRequest="20" WidthRequest="25" Aspect="Fill"></Image>
+                                    <Label Text="{Binding MenuTitle}" TextColor="Black" FontSize="Medium" HorizontalOptions="StartAndExpand" HorizontalTextAlignment="Center" VerticalTextAlignment="Start"></Label>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </ContentPage>
+    </MasterDetailPage.Master>
+</MasterDetailPage>

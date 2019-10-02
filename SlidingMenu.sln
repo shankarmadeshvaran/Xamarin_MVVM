@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlidingMenu.Android", "SlidingMenu.Android\SlidingMenu.Android.csproj", "{77B49FAF-202A-4835-9E69-52E6A2BD62A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlidingMenu", "SlidingMenu\SlidingMenu.csproj", "{42363932-0555-4E67-9720-B829752E97FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77B49FAF-202A-4835-9E69-52E6A2BD62A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77B49FAF-202A-4835-9E69-52E6A2BD62A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77B49FAF-202A-4835-9E69-52E6A2BD62A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77B49FAF-202A-4835-9E69-52E6A2BD62A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42363932-0555-4E67-9720-B829752E97FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42363932-0555-4E67-9720-B829752E97FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42363932-0555-4E67-9720-B829752E97FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42363932-0555-4E67-9720-B829752E97FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Title="Contact Details"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" x:Class="SlidingMenu.Views.ContactsPage">
+
+    <ContentPage.Content>
+        <ListView ItemsSource="{Binding allContacts}" HasUnevenRows="True" SeparatorVisibility="None">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Frame Padding="05" Margin="5" HorizontalOptions="FillAndExpand" OutlineColor="Linen" HasShadow="True" CornerRadius="5">
+                            <StackLayout Margin="5" HorizontalOptions="FillAndExpand">
+                                <StackLayout Orientation="Horizontal" Spacing="8">
+                                    <Frame CornerRadius="5" Margin="0" Padding="0" IsClippedToBounds="True">
+                                        <Image HeightRequest="60" WidthRequest="80" Aspect="Fill" Source="{Binding PhotoUrl}" />
+                                    </Frame>
+                                    <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Spacing="2">
+                                        <Label Text="{Binding FullName}" FontSize="11" FontAttributes="Bold" TextColor="Black" />
+                                        <StackLayout Orientation="Horizontal">
+                                            <Image Source="designation.png" WidthRequest="9" HeightRequest="8"></Image>
+                                            <Label Text="{Binding JobTitle}" FontSize="8" TextColor="Gray" FontAttributes="Bold" VerticalTextAlignment="Center" VerticalOptions="Center" />
+                                        </StackLayout>
+                                        <StackLayout Orientation="Horizontal">
+                                            <Image Source="phone.png" WidthRequest="8" HeightRequest="8"></Image>
+                                            <Label Text="{Binding Phone}" FontSize="8" />
+                                        </StackLayout>
+                                        <StackLayout Orientation="Horizontal">
+                                            <Image Source="company.png" WidthRequest="8" HeightRequest="8"></Image>
+                                            <Label Text="{Binding Company}" FontSize="8" />
+                                        </StackLayout>
+                                        <StackLayout Orientation="Horizontal">
+                                            <Image Source="mail.png" WidthRequest="8" HeightRequest="8"></Image>
+                                            <Label Text="{Binding Email}" FontSize="8" />
+                                        </StackLayout>
+                                        <StackLayout Orientation="Horizontal">
+                                            <Image Source="location.png" WidthRequest="10" HeightRequest="10"></Image>
+                                            <Label Text="{Binding Address}" FontSize="8" />
+                                        </StackLayout>
+                                    </StackLayout>
+                                </StackLayout>
+                            </StackLayout>
+                        </Frame>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </ContentPage.Content>
+</ContentPage>
