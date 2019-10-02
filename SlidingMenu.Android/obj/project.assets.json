@@ -1916,11 +1916,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/shankar/Documents/Workspace/Xamarin Projects/SlidingMenu/SlidingMenu.Android/SlidingMenu.Android.csproj",
+      "projectUniqueName": "/Users/shankar/Documents/Workspace/Github Projects/SlidingMenu/SlidingMenu.Android/SlidingMenu.Android.csproj",
       "projectName": "SlidingMenu.Android",
-      "projectPath": "/Users/shankar/Documents/Workspace/Xamarin Projects/SlidingMenu/SlidingMenu.Android/SlidingMenu.Android.csproj",
+      "projectPath": "/Users/shankar/Documents/Workspace/Github Projects/SlidingMenu/SlidingMenu.Android/SlidingMenu.Android.csproj",
       "packagesPath": "/Users/shankar/.nuget/packages/",
-      "outputPath": "/Users/shankar/Documents/Workspace/Xamarin Projects/SlidingMenu/SlidingMenu.Android/obj/",
+      "outputPath": "/Users/shankar/Documents/Workspace/Github Projects/SlidingMenu/SlidingMenu.Android/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1935,8 +1935,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "/Users/shankar/Documents/Workspace/Xamarin Projects/SlidingMenu/SlidingMenu/SlidingMenu.csproj": {
-              "projectPath": "/Users/shankar/Documents/Workspace/Xamarin Projects/SlidingMenu/SlidingMenu/SlidingMenu.csproj"
+            "/Users/shankar/Documents/Workspace/Github Projects/SlidingMenu/SlidingMenu/SlidingMenu.csproj": {
+              "projectPath": "/Users/shankar/Documents/Workspace/Github Projects/SlidingMenu/SlidingMenu/SlidingMenu.csproj"
             }
           }
         }

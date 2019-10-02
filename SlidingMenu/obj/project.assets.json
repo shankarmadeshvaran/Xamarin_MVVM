@@ -570,11 +570,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/shankar/Documents/Workspace/Xamarin Projects/SlidingMenu/SlidingMenu/SlidingMenu.csproj",
+      "projectUniqueName": "/Users/shankar/Documents/Workspace/Github Projects/SlidingMenu/SlidingMenu/SlidingMenu.csproj",
       "projectName": "SlidingMenu",
-      "projectPath": "/Users/shankar/Documents/Workspace/Xamarin Projects/SlidingMenu/SlidingMenu/SlidingMenu.csproj",
+      "projectPath": "/Users/shankar/Documents/Workspace/Github Projects/SlidingMenu/SlidingMenu/SlidingMenu.csproj",
       "packagesPath": "/Users/shankar/.nuget/packages/",
-      "outputPath": "/Users/shankar/Documents/Workspace/Xamarin Projects/SlidingMenu/SlidingMenu/obj/",
+      "outputPath": "/Users/shankar/Documents/Workspace/Github Projects/SlidingMenu/SlidingMenu/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/shankar/.config/NuGet/NuGet.Config"
