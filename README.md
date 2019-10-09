@@ -2,9 +2,9 @@
 This is a basic app that let you create a sample Xamarin Project Contains HamburgerMenu, MVVM Project Setup and ListView which shows contact details.
 
 <p align="center">
-<img src="https://github.com/shankarmadeshvaran/Xamarin_MVVM/blob/master/ScreenShots/ContactPage.png" width="50%" height="50%"/>
-<img src="https://github.com/shankarmadeshvaran/Xamarin_MVVM/blob/master/ScreenShots/NewContact.png" width="50%" height="50%"/>
-<img src="https://github.com/shankarmadeshvaran/Xamarin_MVVM/blob/master/ScreenShots/EditContact.png" width="50%" height="50%"/>
+<img src="https://github.com/shankarmadeshvaran/Xamarin_MVVM/blob/master/ScreenShots/ContactPage.png" width="15%" height="25%"/>
+<img src="https://github.com/shankarmadeshvaran/Xamarin_MVVM/blob/master/ScreenShots/NewContact.png" width="15%" height="25%"/>
+<img src="https://github.com/shankarmadeshvaran/Xamarin_MVVM/blob/master/ScreenShots/EditContact.png" width="15%" height="25%"/>
 </p>
 
 This project was made by learning Xamarin Forms and see how it interacts with other layers of the application.
@@ -25,27 +25,27 @@ There are three core components in the MVVM pattern: the model, the view, and th
 ###### 4. Hamburger Menu
 
 <p align="center">
-<img src="https://github.com/shankarmadeshvaran/Xamarin_MVVM/blob/master/ScreenShots/HamburgerMenu.png" width="30%" height="50%"/>
-<img src="https://github.com/shankarmadeshvaran/Xamarin_MVVM/blob/master/ScreenShots/ProfilePage.png" width="30%" height="50%"/>
-<img src="https://github.com/shankarmadeshvaran/Xamarin_MVVM/blob/master/ScreenShots/MessagePage.png" width="30%" height="50%"/>
-<img src="https://github.com/shankarmadeshvaran/Xamarin_MVVM/blob/master/ScreenShots/ContactPage.png" width="30%" height="50%"/>
-<img src="https://github.com/shankarmadeshvaran/Xamarin_MVVM/blob/master/ScreenShots/SettingsPage.png" width="30%" height="50%"/>
+<img src="https://github.com/shankarmadeshvaran/Xamarin_MVVM/blob/master/ScreenShots/HamburgerMenu.png" width="15%" height="25%"/>
+<img src="https://github.com/shankarmadeshvaran/Xamarin_MVVM/blob/master/ScreenShots/ProfilePage.png" width="15%" height="25%"/>
+<img src="https://github.com/shankarmadeshvaran/Xamarin_MVVM/blob/master/ScreenShots/MessagePage.png" width="15%" height="25%"/>
+<img src="https://github.com/shankarmadeshvaran/Xamarin_MVVM/blob/master/ScreenShots/ContactPage.png" width="15%" height="25%"/>
+<img src="https://github.com/shankarmadeshvaran/Xamarin_MVVM/blob/master/ScreenShots/SettingsPage.png" width="15%" height="25%"/>
 </p>
 
 ###### 5. Call the contact directly
 
 <p align="center">
-<img src="https://github.com/shankarmadeshvaran/Xamarin_MVVM/blob/master/ScreenShots/ContextAction.png" width="30%" height="50%"/>
-<img src="https://github.com/shankarmadeshvaran/Xamarin_MVVM/blob/master/ScreenShots/CallAction.png" width="30%" height="50%"/>
-<img src="https://github.com/shankarmadeshvaran/Xamarin_MVVM/blob/master/ScreenShots/CallOptions.png" width="30%" height="50%"/>
-<img src="https://github.com/shankarmadeshvaran/Xamarin_MVVM/blob/master/ScreenShots/DialPage.png" width="30%" height="50%"/>
+<img src="https://github.com/shankarmadeshvaran/Xamarin_MVVM/blob/master/ScreenShots/ContextAction.png" width="15%" height="25%"/>
+<img src="https://github.com/shankarmadeshvaran/Xamarin_MVVM/blob/master/ScreenShots/CallAction.png" width="15%" height="25%"/>
+<img src="https://github.com/shankarmadeshvaran/Xamarin_MVVM/blob/master/ScreenShots/CallOptions.png" width="15%" height="25%"/>
+<img src="https://github.com/shankarmadeshvaran/Xamarin_MVVM/blob/master/ScreenShots/DialPage.png" width="15%" height="25%"/>
 </p>
 
 ###### 6. Delete Contact 
 
 <p align="center">
-<img src="https://github.com/shankarmadeshvaran/Xamarin_MVVM/blob/master/ScreenShots/ContextAction.png" width="30%" height="50%"/>
-<img src="https://github.com/shankarmadeshvaran/Xamarin_MVVM/blob/master/ScreenShots/DeleteAction.png" width="30%" height="50%"/>
+<img src="https://github.com/shankarmadeshvaran/Xamarin_MVVM/blob/master/ScreenShots/ContextAction.png" width="15%" height="25%"/>
+<img src="https://github.com/shankarmadeshvaran/Xamarin_MVVM/blob/master/ScreenShots/DeleteAction.png" width="15%" height="25%"/>
 </p>
 
 
