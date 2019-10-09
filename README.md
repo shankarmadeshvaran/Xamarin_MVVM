@@ -39,10 +39,10 @@ There are three core components in the MVVM pattern: the model, the view, and th
 </p>
 
 ## Functionalities
-###### 1. Add New Contacts
-###### 2. Edit Existing Contacts
-###### 3. Shows List of contacts
-###### 4. Hamburger Menu
+**1. Add New Contacts**
+**2. Edit Existing Contacts**
+**3. Shows List of contacts**
+**4. Hamburger Menu**
 
 <p align="center">
 <img src="https://github.com/shankarmadeshvaran/Xamarin_MVVM/blob/master/ScreenShots/HamburgerMenu.png" width="20%" height="25%"/>
@@ -51,7 +51,7 @@ There are three core components in the MVVM pattern: the model, the view, and th
 <img src="https://github.com/shankarmadeshvaran/Xamarin_MVVM/blob/master/ScreenShots/ContactPage.png" width="20%" height="25%"/>
 </p>
 
-###### 5. Call the contact directly
+**5. Call the contact directly**
 
 <p align="center">
 <img src="https://github.com/shankarmadeshvaran/Xamarin_MVVM/blob/master/ScreenShots/ContextAction.png" width="20%" height="25%"/>
@@ -60,7 +60,7 @@ There are three core components in the MVVM pattern: the model, the view, and th
 <img src="https://github.com/shankarmadeshvaran/Xamarin_MVVM/blob/master/ScreenShots/DialPage.png" width="20%" height="25%"/>
 </p>
 
-###### 6. Delete Contact 
+**6. Delete Contact**
 
 <p align="center">
 <img src="https://github.com/shankarmadeshvaran/Xamarin_MVVM/blob/master/ScreenShots/ContextAction.png" width="20%" height="25%"/>
