@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Title="Edit Contact Details" xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:SlidingMenu;assembly=SlidingMenu"
+             x:Class="SlidingMenu.Views.ContactDetailPage">
+    <ScrollView>
+        <StackLayout Margin="5" Padding="5" Spacing="8">
+            <StackLayout Margin="10" Padding="10" Spacing="0">
+                <StackLayout x:Name="Emp_id" Orientation="Vertical" Spacing="0">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Fill" Padding="5">
+                        <local:CustomEntry x:Name="userId" Text="{Binding UserId,Mode=TwoWay}" Placeholder="Enter your user id"
+                                           TextColor="#414042" FontSize="12" Keyboard="Numeric"
+                                           HorizontalOptions="FillAndExpand" />
+                        <Image Source="id.png" WidthRequest="20" HeightRequest="20"></Image>
+                    </StackLayout>
+                    <BoxView HeightRequest="1" BackgroundColor="#D1D3D4"></BoxView>
+                </StackLayout>
+                <StackLayout Spacing="0">
+                    <StackLayout Orientation="Vertical" Spacing="0">
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Fill" Padding="5">
+                            <local:CustomEntry x:Name="firstName" Text="{Binding FirstName,Mode=TwoWay}" TextColor="#414042" Placeholder="Enter your firstName" FontSize="12" HorizontalOptions="FillAndExpand" />
+                            <Image Source="editProfile.png" WidthRequest="20" HeightRequest="20"></Image>
+                        </StackLayout>
+                        <BoxView HeightRequest="1" BackgroundColor="#D1D3D4"></BoxView>
+                    </StackLayout>
+                    <StackLayout Orientation="Vertical" Spacing="0">
+                        <local:CustomEntry x:Name="lastName" Margin="5,0,0,0" Text="{Binding LastName, Mode=TwoWay}" Placeholder="Enter your lastName" FontSize="12" HorizontalOptions="FillAndExpand" />
+                        <BoxView HeightRequest="1" BackgroundColor="#D1D3D4"></BoxView>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Vertical" Spacing="0">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Fill" Padding="5">
+                        <local:CustomEntry x:Name="company" Text="{Binding Company, Mode=TwoWay}" Placeholder="Enter your company" TextColor="#414042" FontSize="12" HorizontalOptions="FillAndExpand" />
+                        <Image Source="editCompany.png" WidthRequest="20" HeightRequest="20"></Image>
+                    </StackLayout>
+                    <BoxView HeightRequest="1" BackgroundColor="#D1D3D4"></BoxView>
+                </StackLayout>
+                <StackLayout Orientation="Vertical" Spacing="0">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Fill" Padding="5">
+                        <local:CustomEntry x:Name="email" Text="{Binding Email, Mode=TwoWay}" Placeholder="Enter your email" FontSize="12" TextColor="#414042" Keyboard="Email" HorizontalOptions="FillAndExpand" />
+                        <Image Source="editMail.png" WidthRequest="20" HeightRequest="20"></Image>
+                    </StackLayout>
+                    <BoxView HeightRequest="1" BackgroundColor="#D1D3D4"></BoxView>
+                </StackLayout>
+                <StackLayout Orientation="Vertical" Spacing="0">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Fill" Padding="5">
+                        <local:CustomEntry x:Name="jobTitle" Text="{Binding JobTitle, Mode=TwoWay}" Placeholder="Enter your designation" FontSize="12" TextColor="#414042" HorizontalOptions="FillAndExpand" />
+                        <Image Source="editJob.png" WidthRequest="20" HeightRequest="20"></Image>
+                    </StackLayout>
+                    <BoxView HeightRequest="1" BackgroundColor="#D1D3D4"></BoxView>
+                </StackLayout>
+                <StackLayout Orientation="Vertical" Spacing="0">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Fill" Padding="5">
+                        <local:CustomEntry x:Name="phone" Text="{Binding Phone, Mode=TwoWay}" Placeholder="Enter your phone number" TextColor="#414042" FontSize="12" Keyboard="Numeric" HorizontalOptions="FillAndExpand" />
+                        <Image Source="editPhone.png" WidthRequest="20" HeightRequest="20"></Image>
+                    </StackLayout>
+                    <BoxView HeightRequest="1" BackgroundColor="#D1D3D4"></BoxView>
+                </StackLayout>
+                <StackLayout Orientation="Vertical" Spacing="0">
+                    <StackLayout Spacing="0">
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Fill" Padding="5">
+                            <local:CustomEntry x:Name="street" Text="{Binding Street, Mode=TwoWay}" Placeholder="Enter your street name" FontSize="12" HorizontalOptions="FillAndExpand" TextColor="#414042" />
+                            <Image Source="editLocation.png" WidthRequest="20" HeightRequest="20"></Image>
+                        </StackLayout>
+                        <BoxView HeightRequest="1" BackgroundColor="#D1D3D4"></BoxView>
+                    </StackLayout>
+                    <StackLayout Orientation="Vertical" Spacing="0">
+                        <local:CustomEntry x:Name="city" Margin="5,0,0,0" Text="{Binding City, Mode=TwoWay}" Placeholder="Enter your city name" FontSize="12" HorizontalOptions="FillAndExpand" TextColor="#414042" />
+                        <BoxView HeightRequest="1" BackgroundColor="#D1D3D4"></BoxView>
+                    </StackLayout>
+                    <StackLayout Orientation="Vertical" Spacing="0">
+                        <local:CustomEntry x:Name="postalCode" Margin="5,0,0,0" Text="{Binding PostalCode, Mode=TwoWay}" Placeholder="Enter your postalcode" FontSize="12" Keyboard="Numeric" HorizontalOptions="FillAndExpand" TextColor="#414042" />
+                        <BoxView HeightRequest="1" BackgroundColor="#D1D3D4"></BoxView>
+                    </StackLayout>
+                    <StackLayout Orientation="Vertical" Spacing="0">
+                        <local:CustomEntry x:Name="state" Margin="5,0,0,0" Text="{Binding State, Mode=TwoWay}" Placeholder="Enter your state" FontSize="12" HorizontalOptions="FillAndExpand" TextColor="#414042" />
+                        <BoxView HeightRequest="1" BackgroundColor="#D1D3D4"></BoxView>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+            <Button x:Name="saveButton" Margin="0,0,0,0" Text="Save" TextColor="White" BackgroundColor="#1094F6"
+                    HeightRequest="40" Clicked="Handle_Save_Clicked" CornerRadius="8"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

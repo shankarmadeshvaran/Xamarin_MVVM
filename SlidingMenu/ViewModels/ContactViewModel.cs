@@ -2,16 +2,17 @@
 using SlidingMenu.Models;
 using System.Collections.Generic;
 using Xamarin.Forms;
+using System.Collections.ObjectModel;
 
 namespace SlidingMenu.ViewModels
 {
     public class ContactViewModel
     {
-        public List<Contact> allContacts { get; set; }
+        public ObservableCollection<Contact> AllContacts { get; set; }
 
         public ContactViewModel()
         {
-            allContacts = new List<Contact>(Contacts.Get());
+            AllContacts = new ObservableCollection<Contact>(Contacts.Get());
         }
     }
 }

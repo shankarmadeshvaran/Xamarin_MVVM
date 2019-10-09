@@ -19,8 +19,8 @@
 /Users/shankar/Documents/Workspace/Github Projects/SlidingMenu/SlidingMenu/bin/Debug/netstandard2.0/SlidingMenu.dll
 /Users/shankar/Documents/Workspace/Github Projects/SlidingMenu/SlidingMenu/bin/Debug/netstandard2.0/ref/SlidingMenu.dll
 /Users/shankar/Documents/Workspace/Github Projects/SlidingMenu/SlidingMenu/bin/Debug/netstandard2.0/SlidingMenu.pdb
-/Users/shankar/Documents/Workspace/Github Projects/SlidingMenu/SlidingMenu/obj/Debug/netstandard2.0/SlidingMenu.csprojAssemblyReference.cache
 /Users/shankar/Documents/Workspace/Github Projects/SlidingMenu/SlidingMenu/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/shankar/Documents/Workspace/Github Projects/SlidingMenu/SlidingMenu/obj/Debug/netstandard2.0/Views/ContactDetailPage.xaml.g.cs
 /Users/shankar/Documents/Workspace/Github Projects/SlidingMenu/SlidingMenu/obj/Debug/netstandard2.0/Views/ContactsPage.xaml.g.cs
 /Users/shankar/Documents/Workspace/Github Projects/SlidingMenu/SlidingMenu/obj/Debug/netstandard2.0/Views/MenuBar.xaml.g.cs
 /Users/shankar/Documents/Workspace/Github Projects/SlidingMenu/SlidingMenu/obj/Debug/netstandard2.0/Views/MessagesPage.xaml.g.cs

@@ -10,6 +10,7 @@ namespace SlidingMenu
         public App()
         {
             InitializeComponent();
+            //MainPage = new NavigationPage(new MenuBar());
 
             MainPage = new MenuBar();
         }

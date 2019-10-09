@@ -5,12 +5,19 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" x:Class="SlidingMenu.Views.ContactsPage">
-
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Icon="add.png" Text="Add" Clicked="Handle_Add_Clicked" />
+    </ContentPage.ToolbarItems>
     <ContentPage.Content>
-        <ListView ItemsSource="{Binding allContacts}" HasUnevenRows="True" SeparatorVisibility="None">
+        <ListView x:Name="listView" ItemsSource="{Binding AllContacts}" HasUnevenRows="True"
+                  SeparatorVisibility="None" ItemSelected="Handle_list_itemSelected">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
+                        <ViewCell.ContextActions>
+                            <MenuItem Text="Call" Clicked="OnDetail"></MenuItem>
+                            <MenuItem Text="Delete" Clicked="OnDelete"></MenuItem>
+                        </ViewCell.ContextActions>
                         <Frame Padding="05" Margin="5" HorizontalOptions="FillAndExpand" OutlineColor="Linen" HasShadow="True" CornerRadius="5">
                             <StackLayout Margin="5" HorizontalOptions="FillAndExpand">
                                 <StackLayout Orientation="Horizontal" Spacing="8">
