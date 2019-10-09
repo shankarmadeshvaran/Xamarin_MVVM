@@ -24,7 +24,9 @@ It might seem like a hack, but when I need to do this I follow these steps:
 - Because the new solution you made had the same name, the namespace and other settings should all match, and the references should 'just work'. If the reference to the common code didn't work, delete and re-add it. Also don't forgot to synchronize the version of Xamarin.Forms NuGet being used.
 
 ``` 
-Note: it is also possible to just create a 'new' iOS project, add the Xamarin.Forms NuGet and then copy the required AppDelegate.cs code from another Xamarin.Forms solution, but I find the above process easier.
+Note: it is also possible to just create a 'new' iOS project, add the Xamarin.Forms NuGet and 
+then copy the required AppDelegate.cs code from another Xamarin.Forms solution, 
+but I find the above process easier.
 ```
 
 
