@@ -11,7 +11,22 @@ This project was made by learning Xamarin Forms and see how it interacts with ot
 When I started learning Xamarin development, I couldn't find sample projects in MVVM architecture. So I searched through web and developed my own. I posted this so that this project might be helpl those people who started learning xamarin Forms. I'm  still learning. This project is merely my attempt to put something together based on the learning put across youtube and Udemy couses and in the official Microsoft documentation.
 
 ## Platforms
-This project will run in Windows ,iOS and Android.
+This project will run in Windows ,iOS and Android. Currently I have only developed only for Android. You guys can easily add an iOS or Windows project. Below procedure shows how to run this for iOS and Windows.
+
+It might seem like a hack, but when I need to do this I follow these steps:
+
+- You need to create a totally new Xamarin.Forms solution in a temporary location on the Mac with exactly the same name as the existing project. Close the solution.
+
+- Copy the platform project you need (in this case the iOS project folder) into your existing solution folder using Finder.
+
+- Open your existing solution, right-click Add existing project and then choose the new project.
+
+- Because the new solution you made had the same name, the namespace and other settings should all match, and the references should 'just work'. If the reference to the common code didn't work, delete and re-add it. Also don't forgot to synchronize the version of Xamarin.Forms NuGet being used.
+
+'''
+**Note:** it is also possible to just create a 'new' iOS project, add the Xamarin.Forms NuGet and then copy the required AppDelegate.cs code from another Xamarin.Forms solution, but I find the above process easier.
+'''
+
 
 ## Architecture
 The Model-View-ViewModel (MVVM) pattern helps to cleanly separate the business and presentation logic of an application from its user interface (UI). Maintaining a clean separation between application logic and the UI helps to address numerous development issues and can make an application easier to test, maintain, and evolve. It can also greatly improve code re-use opportunities and allows developers and UI designers to more easily collaborate when developing their respective parts of an app.
