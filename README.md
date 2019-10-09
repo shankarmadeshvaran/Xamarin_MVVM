@@ -32,7 +32,6 @@ There are three core components in the MVVM pattern: the model, the view, and th
 <img src="https://github.com/shankarmadeshvaran/Xamarin_MVVM/blob/master/ScreenShots/ProfilePage.png" width="20%" height="25%"/>
 <img src="https://github.com/shankarmadeshvaran/Xamarin_MVVM/blob/master/ScreenShots/MessagePage.png" width="20%" height="25%"/>
 <img src="https://github.com/shankarmadeshvaran/Xamarin_MVVM/blob/master/ScreenShots/ContactPage.png" width="20%" height="25%"/>
-<img src="https://github.com/shankarmadeshvaran/Xamarin_MVVM/blob/master/ScreenShots/SettingsPage.png" width="20%" height="25%"/>
 </p>
 
 ###### 5. Call the contact directly
