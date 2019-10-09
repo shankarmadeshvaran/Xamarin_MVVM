@@ -2,9 +2,9 @@
 This is a basic app that let you create a sample Xamarin Project Contains HamburgerMenu, MVVM Project Setup and ListView which shows contact details.
 
 <p align="center">
-<img src="https://github.com/shankarmadeshvaran/Xamarin_MVVM/blob/master/ScreenShots/ContactPage.png" width="30%" height="50%"/>
-<img src="https://github.com/shankarmadeshvaran/Xamarin_MVVM/blob/master/ScreenShots/NewContact.png" width="30%" height="50%"/>
-<img src="https://github.com/shankarmadeshvaran/Xamarin_MVVM/blob/master/ScreenShots/EditContact.png" width="30%" height="50%"/>
+<img src="https://github.com/shankarmadeshvaran/Xamarin_MVVM/blob/master/ScreenShots/ContactPage.png" width="50%" height="50%"/>
+<img src="https://github.com/shankarmadeshvaran/Xamarin_MVVM/blob/master/ScreenShots/NewContact.png" width="50%" height="50%"/>
+<img src="https://github.com/shankarmadeshvaran/Xamarin_MVVM/blob/master/ScreenShots/EditContact.png" width="50%" height="50%"/>
 </p>
 
 This project was made by learning Xamarin Forms and see how it interacts with other layers of the application.
