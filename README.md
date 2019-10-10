@@ -70,6 +70,9 @@ There are three core components in the MVVM pattern: the model, the view, and th
 ## Enhancements and Features
  Going to implement a **local database** to project -> To **Save** and **Edit** contact details for real time usage.
  I'll implement lot more features whenever something popup in my mind.
+ 
+ ## Issues
+ I'll constantly update this project whenever I find the great coding standards and better architecture. I still getting feedback abovt my MVVM project structure. So when you came across any error or better method to do code , feel free to raise a issue or contact me via [Twitter](https://twitter.com/Shankar__am)
 
 ## More Updates
 Follow me on [Twitter](https://twitter.com/Shankar__am) to get the latest update about features, code and more. 
