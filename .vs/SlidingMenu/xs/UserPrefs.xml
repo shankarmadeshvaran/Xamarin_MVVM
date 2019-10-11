@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{77B49FAF-202A-4835-9E69-52E6A2BD62A5}|Default">
-  <MonoDevelop.Ide.ItemProperties.SlidingMenu.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.ZH33L2XC55" />
+  <MonoDevelop.Ide.ItemProperties.SlidingMenu.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
   <MonoDevelop.Ide.Workbench ActiveDocument="SlidingMenu/Views/ContactsPage.xaml.cs">
     <Files>
       <File FileName="SlidingMenu/Views/ContactsPage.xaml" Line="58" Column="49" IsPinned="True" />
-      <File FileName="SlidingMenu/Views/ContactDetailPage.xaml.cs" Line="6" Column="28" />
+      <File FileName="SlidingMenu/Views/ContactDetailPage.xaml.cs" />
       <File FileName="SlidingMenu/Views/ContactsPage.xaml.cs" Line="7" Column="1" />
     </Files>
     <Pads>
