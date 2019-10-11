@@ -1030,3 +1030,4 @@
 /Users/shankar/Documents/Workspace/Github Projects/SlidingMenu/SlidingMenu.Android/obj/Debug/stamp/_GenerateJavaStubs.stamp
 /Users/shankar/Documents/Workspace/Github Projects/SlidingMenu/SlidingMenu.Android/obj/Debug/stamp/_GeneratePackageManagerJava.stamp
 /Users/shankar/Documents/Workspace/Github Projects/SlidingMenu/SlidingMenu.Android/obj/Debug/stamp/_ResolveLibraryProjectImports.stamp
+/Users/shankar/Documents/Workspace/Github Projects/SlidingMenu/SlidingMenu.Android/obj/Debug/res/drawable/id.png

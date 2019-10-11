@@ -10,18 +10,15 @@ namespace SlidingMenu.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ContactsPage : ContentPage
     {
+        public ContactViewModel collections;
         public ContactsPage()
         {
             InitializeComponent();
             Title = "Contact Details";
 
             NavigationPage.SetHasBackButton(this, false);
-            BindingContext = new ContactViewModel();
-        }
-
-        void Handle_Add_Clicked(object sender, System.EventArgs e)
-        {
-            Navigation.PushAsync(new ContactDetailPage());
+            BindingContext = new ContactViewModel(this);
+            collections = new ContactViewModel(this);
         }
 
         async void Handle_list_itemSelected(object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)
@@ -30,53 +27,18 @@ namespace SlidingMenu.Views
                 return;
 
             var contact = e.SelectedItem as Contact;
-            await Navigation.PushAsync(new ContactDetailPage(contact));
             listView.SelectedItem = null;
+            await Navigation.PushAsync(new ContactDetailPage(contact));
         }
 
-        private async void OnDetail(object sender, EventArgs e)
+        public void AddNewUserData(Contact newContact)
         {
-            if (sender is MenuItem menuItem)
-            {
-                Contact selectedContact = menuItem.BindingContext as Contact;
-                if (selectedContact != null)
-                {
-                    bool isCall = await this.DisplayAlert("Do you really want to Call?", selectedContact.FullName + "\n" + selectedContact.Phone
-                        , "Call", "Cancel");
-
-                    if (isCall)
-                    {
-                        //Go to Contacts App
-                        Device.OpenUri(new Uri("tel:" + selectedContact.Phone));
-                    }
-                }
-            }
-        }
-
-        private async void OnDelete(object sender, EventArgs e)
-        {
-            var collections = new ContactViewModel();
-            Contact deleteContact;
-            var result = await this.DisplayAlert("Alert!", "Are you sure you want to delete this contact?", "Yes", "No");
-            if (result)
-            {
-                var menuitem = sender as MenuItem;
-                deleteContact = menuitem.BindingContext as Contact;
-                collections.AllContacts.Remove(collections.AllContacts.Where(i => i.UserId == deleteContact.UserId).Single());
-                listView.ItemsSource = collections.AllContacts;
-            }
-        }
-
-        public void addNewUserData(Contact newContact)
-        {
-            var collections = new ContactViewModel();
             collections.AllContacts.Add(newContact);
             listView.ItemsSource = collections.AllContacts;
         }
 
-        public void updateEditedData(Contact editedContact)
+        public void UpdateEditedData(Contact editedContact)
         {
-            var collections = new ContactViewModel();
             foreach (var data in collections.AllContacts)
             {
                 if (data.UserId == editedContact.UserId)

@@ -17,6 +17,9 @@ namespace SlidingMenu.Views {
     public partial class ContactDetailPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.ContentPage contactDetailPage;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.StackLayout Emp_id;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
@@ -58,6 +61,7 @@ namespace SlidingMenu.Views {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(ContactDetailPage));
+            contactDetailPage = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ContentPage>(this, "contactDetailPage");
             Emp_id = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.StackLayout>(this, "Emp_id");
             userId = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::SlidingMenu.CustomEntry>(this, "userId");
             firstName = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::SlidingMenu.CustomEntry>(this, "firstName");

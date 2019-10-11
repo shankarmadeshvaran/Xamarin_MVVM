@@ -1,32 +1,21 @@
 ﻿<Properties StartupConfiguration="{77B49FAF-202A-4835-9E69-52E6A2BD62A5}|Default">
-  <MonoDevelop.Ide.ItemProperties.SlidingMenu.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="SlidingMenu/Views/ContactDetailPage.xaml.cs">
+  <MonoDevelop.Ide.ItemProperties.SlidingMenu.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.ZH33L2XC55" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SlidingMenu/Views/ContactsPage.xaml.cs">
     <Files>
-      <File FileName="SlidingMenu/Views/MenuBar.xaml" Line="12" Column="39" />
-      <File FileName="SlidingMenu/Views/ContactsPage.xaml" Line="18" Column="81" />
-      <File FileName="SlidingMenu/Views/ContactDetailPage.xaml.cs" Line="12" Column="27" />
-      <File FileName="SlidingMenu/Views/ContactsPage.xaml.cs" Line="27" Column="44" />
+      <File FileName="SlidingMenu/Views/ContactsPage.xaml" Line="58" Column="49" IsPinned="True" />
+      <File FileName="SlidingMenu/Views/ContactDetailPage.xaml.cs" Line="6" Column="28" />
+      <File FileName="SlidingMenu/Views/ContactsPage.xaml.cs" Line="7" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SlidingMenu" expanded="True">
             <Node name="SlidingMenu" expanded="True">
-              <Node name="Models" expanded="True" />
-              <Node name="Service" expanded="True" />
-              <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="ContactDetailPage.xaml" expanded="True">
-                  <Node name="ContactDetailPage.xaml.cs" selected="True" />
+                <Node name="ContactDetailPage.xaml" expanded="True" />
+                <Node name="ContactsPage.xaml" expanded="True">
+                  <Node name="ContactsPage.xaml.cs" selected="True" />
                 </Node>
-                <Node name="ContactsPage.xaml" expanded="True" />
-                <Node name="MenuBar.xaml" expanded="True" />
-              </Node>
-              <Node name="App.xaml" expanded="True" />
-            </Node>
-            <Node name="SlidingMenu.Android" expanded="True">
-              <Node name="Resources" expanded="True">
-                <Node name="drawable" expanded="True" />
               </Node>
             </Node>
           </Node>
