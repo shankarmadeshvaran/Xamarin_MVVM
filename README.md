@@ -70,10 +70,11 @@ There are three core components in the MVVM pattern: the model, the view, and th
 ## Enhancements and Features
  Going to implement a **local database** to project -> To **Save** and **Edit** contact details for real time usage.
  I'll implement lot more features whenever something popup in my mind.
- 
  ```
- As I mentioned above I have implemented local database to this project and pushed it into new repo named Xamarin_Contacts. Go ahead and refer that repository link which I mentioned below. I have implemented
- local database SQLite and developed in MVVM architecture(Mostly every features are fall under MVVM).
+ As I mentioned above I have implemented local database to this project and 
+ pushed it into new repo named Xamarin_Contacts. Go ahead and refer that 
+ repository link which I mentioned below. I have implemented local database 
+ SQLite and developed in MVVM architecture(Mostly every features are fall under MVVM).
  Consider star the repo if you like it.Thanks
  ```
  [**Xamarin_Contacts Repository(Used SQLite and also in MVVM Pattern)**](https://github.com/shankarmadeshvaran/Xamarin_Contacts)
