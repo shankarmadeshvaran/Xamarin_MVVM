@@ -79,6 +79,15 @@ There are three core components in the MVVM pattern: the model, the view, and th
  ```
  [**Xamarin_Contacts Repository(Used SQLite and also in MVVM Pattern)**](https://github.com/shankarmadeshvaran/Xamarin_Contacts)
  
+   ```
+ This is my second project,in this project I have also implemented local database to this project and 
+ pushed it into new repo named Xamarin_MVVM_ContactsBook. Go ahead and refer that 
+ repository link which I mentioned below. I have implemented local database 
+ SQLite and developed in MVVM architecture(Every features are fall under MVVM Pattern).
+ Consider star the repo if you like it.Thanks
+ ```
+ [**Xamarin_ContactsBook Repository(Used SQLite and also in MVVM Pattern)**](https://github.com/shankarmadeshvaran/Xamarin_MVVM_ContactsBook)
+ 
  ## Issues
  I'll constantly update this project whenever I find the great coding standards and better architecture. I still getting feedback abovt my MVVM project structure. So when you came across any error or better method to do code , feel free to raise a issue or contact me via [Twitter](https://twitter.com/Shankar__am)
 
