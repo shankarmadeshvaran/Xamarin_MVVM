@@ -92,7 +92,7 @@ There are three core components in the MVVM pattern: the model, the view, and th
  I'll constantly update this project whenever I find the great coding standards and better architecture. I still getting feedback abovt my MVVM project structure. So when you came across any error or better method to do code , feel free to raise a issue or contact me via [Twitter](https://twitter.com/Shankar__am)
 
 ## More Updates
-Follow me on [Twitter](https://twitter.com/Shankar__am) to get the latest update about features, code and more. 
+Follow me on [Twitter](https://twitter.com/devinmaking) to get the latest update about features, code and more. 
 Consider star the repo if you like it. 
 
 ## References
